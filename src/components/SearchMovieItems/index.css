@@ -1,0 +1,26 @@
+.show-list-of-search-movies {
+  list-style-type: none;
+  margin: 10px;
+}
+.show-search-link-menu {
+  text-decoration: none;
+}
+
+.show-search-image {
+  width: 115px;
+  height: 115px;
+  border-radius: 10px;
+}
+@media (min-width: 576px) {
+  .show-search-image {
+    width: 125px;
+    height: 125px;
+  }
+}
+
+@media (min-width: 768px) {
+  .show-search-image {
+    width: 225px;
+    height: 225px;
+  }
+}

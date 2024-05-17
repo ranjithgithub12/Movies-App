@@ -1,0 +1,47 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.slick-container {
+  width: 80%;
+  max-width: 1100px;
+  margin-top: 10px;
+}
+.color {
+  color: #ffffff;
+}
+.list-of-movies {
+  list-style-type: none;
+  margin-right: 10px;
+}
+
+.list-of-movie-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
+
+
+@media (min-width: 576px) {
+  .list-of-movie-image {
+    width: 115px;
+    height: 100px;
+  }
+}
+
+@media (min-width: 768px) {
+  .list-of-movie-image {
+    width: 130px;
+    height: 125px;
+  }
+}
+
+@media (min-width: 992px) {
+  .list-of-movie-image {
+    width: 175px;
+    height: 150px;
+  }
+}
+

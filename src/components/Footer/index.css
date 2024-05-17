@@ -1,0 +1,26 @@
+.footer-container {
+  background-color: transparent;
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.socail-media-icon-container {
+  display: flex;
+}
+.socail-media-icons {
+  color: #ffffff;
+  margin: 10px;
+}
+
+.contact-us {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+@media (max-width: 767px) {
+  .contact-us {
+    font-size: 15px;
+  }
+}

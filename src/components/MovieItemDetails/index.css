@@ -1,0 +1,12 @@
+.movie-details-view {
+  background-color: rgba(13, 13, 13, 1);
+  min-height: 100vh;
+}
+
+.movie-detail-loader-container {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}

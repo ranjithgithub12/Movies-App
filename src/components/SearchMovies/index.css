@@ -1,0 +1,78 @@
+.total-search-container {
+  background-color: rgba(13, 13, 13, 1);
+  min-height: 100vh;
+}
+
+.all-movie-list-container {
+  display: flex;
+  justify-content: center;
+}
+
+.loader-container {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.show-search-movies-contianer {
+  width: 90%;
+  margin-top: 20px;
+}
+.show-search-unorder-movies {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 00px;
+}
+
+.no-search-movie-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.no-search-content {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+}
+
+@media (max-width: 767px) {
+  .no-search-content {
+    font-size: 13px;
+  }
+  .no-search-image {
+    width: 150px;
+  }
+}
+.search-failure-view-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+}
+.failure-view-content {
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+.search-try-again-button {
+  background-color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 13px 8px 13px;
+}
+
+@media (max-width: 767px) {
+  .failure-view-content {
+    font-size: 15px;
+  }
+  .failure-view-image {
+    width: 150px;
+  }
+}

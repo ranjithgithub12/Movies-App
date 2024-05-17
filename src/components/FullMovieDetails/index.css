@@ -1,0 +1,113 @@
+.movie-details-content-container {
+  min-height: 40vh;
+  width: 60%;
+  margin-left: 120px;
+}
+.movie-details-heading {
+  color: #ffffff;
+  font-family: 'HK Grotesk';
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.movie-time-year-container {
+  display: flex;
+  color: #ffffff;
+  font-family: 'HK Grotesk';
+  font-size: 30px;
+  font-weight: 500;
+  align-items: center;
+}
+
+.adult-content {
+  text-align: center;
+  border: 2px solid #ffffff;
+  border-radius: 2px;
+  padding: 5px 10px 10px 10px;
+  height: 42px;
+  margin: 0px 20px 0px 20px;
+}
+.movie-details-overview {
+  color: #ffffff;
+  font-size: 25px;
+  font-family: 'HK Grotesk';
+  font-weight: 500;
+}
+
+@media (max-width: 767px) {
+  .movie-details-content-container {
+    margin-left: 20px;
+  }
+  .movie-details-heading {
+    font-size: 25px;
+  }
+  .movie-time-year-container {
+    font-size: 15px;
+  }
+  .movie-details-overview {
+    font-size: 15px;
+  }
+  .adult-content {
+    height: 30px;
+  }
+}
+.movie-details-play-button {
+  background-color: #ffffff;
+  padding: 8px 15px 8px 15px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.movie-details-below-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gener-language-budget-container {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.unorder-list-hilights {
+  padding: 0px;
+}
+.gener-heading {
+  color: rgb(103, 126, 160);
+  font-family: 'Roboto';
+  font-size: 22px;
+}
+.list-of-geners {
+  list-style-type: none;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+@media (max-width: 992px) {
+  .gener-heading {
+    font-size: 15px;
+  }
+  .list-of-geners {
+    font-size: 12px;
+  }
+}
+
+.similar-product-container {
+  width: 90%;
+}
+.similar-product-heaing {
+  font-size: 25px;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+.unorder-similar-product {
+  padding: 00px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

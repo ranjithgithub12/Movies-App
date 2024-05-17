@@ -1,0 +1,23 @@
+.popular-link-menu{
+  text-decoration: none;
+}
+
+.list-of-popular-movies {
+  list-style-type: none;
+}
+
+.popular-movie-image {
+  width: 200px;
+  height: 175px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+@media (max-width: 767px) {
+  .popular-movie-image {
+    width: 125px;
+    height: 100px;
+    margin: 5px;
+  }
+}
+

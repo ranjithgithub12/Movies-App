@@ -1,0 +1,122 @@
+.user-account-details {
+  background-color: rgba(13, 13, 13, 1);
+  min-height: 100vh;
+}
+.account-details-container {
+  background-color: #ffffff;
+  height: 75vh;
+  padding: 50px 30px 10px 80px;
+}
+
+@media (max-width: 767px) {
+  .account-details-container {
+    padding: 20px 10px 10px 40px;
+  }
+}
+
+.account-heading {
+  font-size: 35px;
+  font-family: 'Roboto';
+  font-weight: 700;
+}
+.member-ship-container {
+  display: flex;
+}
+.password-container {
+  margin-left: 10px;
+}
+
+.hr-line {
+  border: 1px solid #94a3b8;
+}
+.membership-heading {
+  color: #94a3b8;
+  font-size: 22px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+.membership-email {
+  font-family: 'Roboto';
+  font-size: 21px;
+  font-weight: 500;
+  color: #1e293b;
+}
+
+.membership-password {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 400;
+  color: #64748b;
+}
+
+@media (max-width: 767px) {
+  .membership-heading {
+    font-size: 17px;
+  }
+  .membership-email {
+    font-size: 16px;
+  }
+  .membership-password {
+    font-size: 15px;
+  }
+  .account-heading {
+    font-size: 25px;
+  }
+}
+.plan-details-container {
+  display: flex;
+  align-items: center;
+}
+.plan-detail-heading {
+  color: #94a3b8;
+  font-size: 22px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+.plan-premium {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 21px;
+  margin-left: 10px;
+}
+
+.plan-ultra-hd {
+  border: 1px solid #1e293b;
+  padding: 8px;
+  color: #1e293b;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  margin-left: 10px;
+}
+
+@media (max-width: 767px) {
+  .plan-detail-heading {
+    font-size: 17px;
+  }
+  .plan-premium {
+    font-size: 16px;
+  }
+  .plan-ultra-hd {
+    font-size: 15px;
+  }
+}
+
+.logout-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+.logout-button {
+  text-align: center;
+  color: #ffffff;
+  border-radius: 5px;
+  border: none;
+  padding: 10px 18px 10px 18px;
+  background-color: #e50914;
+  font-size: 15px;
+  cursor: pointer;
+  outline: none;
+}

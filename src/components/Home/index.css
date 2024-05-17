@@ -1,0 +1,74 @@
+.home-total-background-container {
+  background-color: rgba(13, 13, 13, 1);
+  min-height: 100vh;
+  padding-bottom: 20px;
+}
+
+.home-page-loader-failure-container {
+  display: flex;
+  justify-content: center;
+}
+.home-loader-container {
+  margin-top: 40px;
+  width: 90%;
+  background-color: black;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.home-page-failure {
+  padding: 10px 0px 10px 0px;
+  margin-top: 40px;
+  width: 90%;
+  background-color: black;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.failure-view-result {
+  color: rgba(255, 255, 255, 1);
+  font-family: 'HK Grotesk';
+  font-size: 16px;
+  font-weight: 500;
+}
+.all-try-again-button {
+  border: none;
+  cursor: pointer;
+  outline: none;
+  border-radius: 5px;
+  padding: 8px 13px 8px 13px;
+}
+.trending-original-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-left: 80px;
+}
+
+@media (max-width: 767px) {
+  .trending-original-heading {
+    font-size: 18px;
+    margin-left: 20px;
+  }
+  .failure-view-result {
+    font-size: 12px;
+  }
+  .home-view-failure {
+    width: 50px;
+  }
+  .all-try-again-button {
+    padding: 5px 10px 5px 10px;
+  }
+}
+.trending-original-container {
+  display: flex;
+  justify-content: center;
+}

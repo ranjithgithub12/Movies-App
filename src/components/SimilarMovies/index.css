@@ -1,0 +1,20 @@
+.list-of-similar-movies {
+  list-style-type: none;
+  margin: 10px;
+}
+
+.similar-image {
+  width: 150px;
+  border-radius: 10px;
+}
+
+@media (max-width: 767px) {
+  .similar-image {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+.similar-link-menu {
+  text-decoration: none;
+}

@@ -1,0 +1,17 @@
+.total-popular-movie-container {
+  background-color: rgba(13, 13, 13, 1);
+  min-height: 100vh;
+}
+.popular-movie-container {
+  display: flex;
+  justify-content: center;
+}
+.popular-movie-list-container {
+  width: 90%;
+}
+.unorder-list-popular-movies {
+  padding: 00px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

@@ -1,0 +1,44 @@
+.home-page-content-container {
+  min-height: 50vh;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 120px;
+  margin-right: 20px;
+}
+
+.home-poster-heading {
+  color: #ffffff;
+  font-family: 'HK Grotesk';
+  font-size: 45px;
+  font-weight: 700;
+}
+.home-poster-overview {
+  color: #ffffff;
+  font-family: 'HK Grotesk';
+  font-size: 25px;
+  font-weight: 500;
+}
+.home-poster-button {
+  width: 100px;
+  background-color: #ffffff;
+  padding: 10px 18px 10px 18px;
+  border-radius: 5px;
+  border: none;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+}
+
+@media (max-width: 767px) {
+  .home-page-content-container {
+    margin-left: 20px;
+  }
+  .home-poster-heading {
+    font-size: 25px;
+  }
+  .home-poster-overview {
+    font-size: 15px;
+  }
+}
