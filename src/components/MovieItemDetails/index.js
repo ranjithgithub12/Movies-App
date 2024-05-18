@@ -23,6 +23,17 @@ class MovieItemDetails extends Component {
     this.getMovieDetails()
   }
 
+  componentDidUpdate(prevProps) {
+    const {
+      match: {
+        params: {id},
+      },
+    } = this.props
+    if (id !== prevProps.match.params.id) {
+      this.getMovieDetails()
+    }
+  }
+
   getMovieDetails = async () => {
     this.setState({apiStatus: apiStatusConstants.loading})
     const {match} = this.props
