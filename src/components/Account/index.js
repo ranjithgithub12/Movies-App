@@ -7,7 +7,7 @@ import Footer from '../Footer'
 const Account = props => {
   const username = localStorage.getItem('username')
   const password = localStorage.getItem('password')
-  const hidePassword = '*'.repeat(password.length)
+  const hidePassword = password ? '*'.repeat(password.length) : ''
 
   const onClickLogout = () => {
     const {history} = props
